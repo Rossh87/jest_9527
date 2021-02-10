@@ -1,0 +1,15 @@
+{
+  "name": "jest_9527",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<hunter.dev.87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3"
+  }, 
+  "scripts": {
+    "run:beforeAll": "yarn jest --testRunner='jest-circus/runner' beforeAll",
+    "run:beforeEach": "yarn jest --testRunner='jest-circus/runner' beforeEach"
+  }
+}
